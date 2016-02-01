@@ -4,7 +4,7 @@ title: OpenBoleto – Biblioteca de boletos bancários em PHP
 date: 2013-03-19 20:44:34 BRT
 tags: boleto, open-source, openboleto, php
 categories: projects
-permalink: "/:categories/:title"
+permalink: /projects/openboleto-geracao-de-boletos-em-php/
 redirect_from:
   - /blog/2013/03/openboleto-biblioteca-de-geracao-de-boletos-bancarios/
   - /blog/2013/08/openboleto-geracao-de-boleto-bancario/

@@ -3,7 +3,7 @@ layout: page
 title: About
 description: $ whoami
 header-img: img/about-bg.jpg
-permalink: /about
+permalink: /about/
 ---
 Hello there. I've been programming since I was about 11. Since then, I've learned a lot about it and that allowed me give back to community.
 

@@ -4,7 +4,7 @@ title: H2P - PHP library to convert HTML files to PDF
 date: 2013-03-24 20:44:34 BRT
 tags: open-source, php, pdf
 categories: projects
-permalink: /:categories/:title
+permalink: "/:categories/:title"
 redirect_from: /blog/2013/03/h2p-convert-html-files-to-pdf/
 ---
 __H2P__ is a simple library to convert HTML files with images, JS and CSS into PDF files, using the awesome [PhantomJS](http://phantomjs.org/){:target="_blank"}.

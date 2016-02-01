@@ -3,7 +3,7 @@ layout: page
 title: Projects
 description: Some of my projects
 header-img: img/projects-bg.jpg
-permalink: /projectss
+permalink: /projects/
 ---
 {% for post in site.categories.projects %}
 <div class="post-preview">

@@ -28,5 +28,5 @@ gems:
   - jekyll-redirect-from
 
 # Build settings
-highlighter: pygments
+highlighter: rouge
 paginate: 10

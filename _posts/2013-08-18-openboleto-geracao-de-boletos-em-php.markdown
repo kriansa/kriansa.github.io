@@ -11,9 +11,9 @@ redirect_from:
 ---
 ![boleto]({{ site.path }}/img/boleto.png)
 
-O <a title="OpenBoleto no GitHub" href="http://kriansa.github.io/openboleto/?utm_source=blog&amp;utm_medium=post&amp;utm_campaign=Blog" target="_blank">OpenBoleto</a> é uma biblioteca de código aberto para geração de boletos bancários, um meio de pagamento muito comum no Brasil. O foco é ser simples e ter uma arquitetura compatível com os recursos mais modernos do PHP, mais amigável com frameworks MVC. Criada em Janeiro de 2013, hoje finalmente lançamos a primeira versão estável.
+O <a title="OpenBoleto no GitHub" href="http://openboleto.github.io/openboleto/" target="_blank">OpenBoleto</a> é uma biblioteca de código aberto para geração de boletos bancários, um meio de pagamento muito comum no Brasil. O foco é ser simples e ter uma arquitetura compatível com os recursos mais modernos do PHP, mais amigável com frameworks MVC. Criada em Janeiro de 2013, hoje finalmente lançamos a primeira versão estável.
 
-<a href="https://github.com/kriansa/openboleto"><img style="border-radius: none; box-shadow: none; position: fixed; top: 0; left: 0; border: 0;" alt="Fork me on GitHub" src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" /></a>
+<a href="https://github.com/openboleto/openboleto"><img style="border-radius: none; box-shadow: none; position: fixed; top: 0; left: 0; border: 0;" alt="Fork me on GitHub" src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" /></a>
 
 <h2>Como usar?</h2>
 O OpenBoleto é simples e flexível, serve tanto para quem não tem tanta experiência em programação quanto para quem <del>manja dos paranauê</del> gosta de customizar tudo. Veja um exemplo abaixo de como gerar um boleto para o Banco do Brasil:
@@ -58,12 +58,12 @@ Se você já conhece o <a title="Composer" href="http://getcomposer.org/" target
 
 {% highlight javascript %}
 {
-  "kriansa/openboleto": "v1.0"
+  "openboleto/openboleto": "v1.0"
 }
 {% endhighlight %}
 
 <h3>Como library de algum framework</h3>
-Primeiro baixe ou clone o repositório no <a title="OpenBoleto no GitHub" href="https://github.com/kriansa/openboleto" target="_blank">GitHub</a>. Se você usa algum framework com autoloader, basta apontar o namespace '<em><strong>OpenBoleto</strong></em>' para a pasta '<em>src</em>'. Ou simplesmente mova o conteúdo da pasta '<em>src</em>' para a library de seu framework.
+Primeiro baixe ou clone o repositório no <a title="OpenBoleto no GitHub" href="https://github.com/openboleto/openboleto" target="_blank">GitHub</a>. Se você usa algum framework com autoloader, basta apontar o namespace '<em><strong>OpenBoleto</strong></em>' para a pasta '<em>src</em>'. Ou simplesmente mova o conteúdo da pasta '<em>src</em>' para a library de seu framework.
 <h3>Com PHP puro (biblioteca standalone)</h3>
 Caso não use framework ou nenhum autoloader, ou você simplesmente quer dar "<em>um include e pronto</em>", você pode usar o autoloader incluso na biblioteca, para isso simplesmente dê um include no arquivo "_autoloader.php_" e tudo deverá funcionar normalmente!
 

@@ -43,3 +43,6 @@ mas dificilmente atuarei no desenvolvimento novamente.
 Gostaria de agradecer a todos os contribuidores do projeto, que direta ou 
 indiretamente ajudaram a fazer o projeto, em especial ao
 [@fredroo](https://github.com/fredroo) pela paciência durante os últimos tempos.
+
+Nova URL do projeto:
+[https://github.com/openboleto/openboleto](https://github.com/openboleto/openboleto).

@@ -1,0 +1,45 @@
+.sharebuttons {
+  border-top: .5px solid $grey-2;
+  margin: 3rem auto 0 auto;
+  padding-top: 3rem;
+  text-align: center;
+
+  .share-title {
+    font-family: $serif-secondary;
+    font-size: 1.2rem;
+  }
+
+  .buttons {
+    margin-top: 1rem;
+
+    span {
+      display: inline-block;
+      margin-right: 5px;
+
+      svg {
+        width: 40px;
+        height: 40px;
+      }
+
+      &.reddit {
+        fill: #FF4500;
+      }
+
+      &.hn {
+        fill: #F0652F;
+      }
+
+      &.twitter {
+        fill: #1DA1F2;
+      }
+
+      &.linkedin {
+        fill: #0077B5;
+      }
+    }
+  }
+}
+
+.comments {
+  margin-top: 2rem;
+}

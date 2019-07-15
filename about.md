@@ -1,14 +1,21 @@
 ---
-layout: page
+layout: default
 title: About
-description: $ whoami
-header-img: img/about-bg.jpg
 permalink: /about/
 ---
-Hello there. I've been programming since I was about 11. Since then, I've learned a lot about it and that allowed me give back to community.
+# Hello world
 
-I love trying and experimenting new technology, open-source and I talk about technologies and practices I want to share with the world.
+Hey, I'm Daniel Garajau. I currently live in Brazil and work as software engineer at [Intuit](https://intuit.com).
 
-I tweet from `@kriansa`, you can mail me in daniel at garajau.com.br and you can find my projects on [Github](https://github.com/kriansa){:target="blank"}.
+On this website I talk about programming ideas, projects & tricky problems I solved and _maybe_ are useful to others.
 
-My OpenPGP key is available for download [here]({{ "/pgp.asc" | prepend: site.baseurl }}) or you can get it using `gpg --recv-keys 0x3E7884756312F945`. Fingerprint: **BC27 7BE0 9E8A 6F10 59C3  911B 3E78 8475 6312 F945**.
+## Contact
+
+I tweet from [`@kriansa`](https://twitter.com/kriansa){:target="blank"}, you can mail me
+[here](mailto:daniel@garajau.com.br){:target="blank"} and you can find my projects on
+[Github](https://github.com/kriansa){:target="blank"}. 
+
+My résumé is available [on LinkedIn](https://www.linkedin.com/in/kriansa/){:target="blank"}.
+
+My PGP key is available for download [here]({{ "/pgp.asc" | prepend: relative_url }}). Fingerprint:
+**BC27 7BE0 9E8A 6F10 59C3  911B 3E78 8475 6312 F945**.

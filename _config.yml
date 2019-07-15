@@ -7,26 +7,36 @@
 
 # Site settings
 title: Daniel Garajau
-email: daniel@garajau.com.br
+author:
+  name: Daniel Garajau
+  email: daniel@garajau.com.br
+  url: "https://garajau.com.br" # the base hostname & protocol for your site
 description: >
   Yet another software engineer. I write about technologies and
   its ecosystem. I love open-source and talk about stuff I want
   to share with the world. I hope somebody can enjoy it.
+
+# URL settings
 baseurl: # the subpath of your site, e.g. /blog
-header-img: img/home-bg.jpg
 url: "https://garajau.com.br" # the base hostname & protocol for your site
-twitter_username: kriansa
-github_username: kriansa
-linkedin_username: kriansa
 permalink: "/:year/:month/:title"
 paginate_path: /page/:num
+
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME
 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
   - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-feed
 
 # Build settings
-highlighter: rouge
-paginate: 10
+paginate: 5
+
+# Google Analytics
+google_analytics: UA-39558114-1

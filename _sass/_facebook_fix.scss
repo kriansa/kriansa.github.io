@@ -1,9 +1,0 @@
-// Fix facebook like button to vertically align in the middle
-// And therefore aligning itself with the other social buttons
-
-.fb_iframe_widget {
-  height: 20px;
-  span {
-    vertical-align: baseline !important;
-  }
-}

@@ -7,7 +7,7 @@ categories: articles
 ---
 With the recent release of [Kernel 5.2](https://lkml.org/lkml/2019/7/7/281), compiling NVIDIA 418.74 drivers is now shouting this error:
 
-```
+```text
 /NVIDIA-Linux-x86_64-418.74/kernel/nvidia-uvm/uvm8_tools.c:209:13: error: conflicting types for ‘put_user_pages’
   209 | static void put_user_pages(struct page **pages, NvU64 page_count)
       |             ^~~~~~~~~~~~~~
@@ -29,7 +29,7 @@ What one can do to ensure the drivers will compile just fine is to comment out
 the functions present on `kernel/nvidia-uvm/uvm8_tools.c`. Below you'll find
 this patch that you can add to your compile script.
 
-```text
+```diff
 --- a/kernel/nvidia-uvm/uvm8_tools.c
 +++ b/kernel/nvidia-uvm/uvm8_tools.c
 @@ -204,12 +204,14 @@ static bool tracker_is_counter(uvm_tools_event_tracker_t *event_tracker)
@@ -37,7 +37,7 @@ this patch that you can add to your compile script.
  }
 
 +/*
- static void put_user_pages(struct page **pages, NvU64 page_count)
+static void put_user_pages(struct page **pages, NvU64 page_count)
  {
      NvU64 i;
      for (i = 0; i < page_count; i++)

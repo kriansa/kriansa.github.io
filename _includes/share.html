@@ -1,0 +1,27 @@
+<section class="sharebuttons">
+  <div class="share-title">
+    Share this
+  </div>
+  <div class="buttons">
+    <span class="twitter">
+      <a href="https://twitter.com/intent/tweet?via=USERNAME&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&text={{ page.title | default:"" | uri_escape}}" target="_blank">
+        {% include social-icons/twitter.svg %}
+      </a>
+    </span>
+    <span class="reddit">
+      <a href="http://www.reddit.com/submit?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&title={{ page.title | default:"" | uri_escape }}" target="_blank">
+        {% include social-icons/reddit.svg %}
+      </a>
+    </span>
+    <span class="hn">
+      <a href="http://news.ycombinator.com/submitlink?u={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&t={{ page.title | default:"" | uri_escape}}" target="_blank">
+        {% include social-icons/ycombinator.svg %}
+      </a>
+    </span>
+    <span class="linkedin">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&title={{ page.title | default:"" | uri_escape}}" target="_blank">
+        {% include social-icons/linkedin.svg %}
+      </a>
+    </span>
+  </div>
+</section>

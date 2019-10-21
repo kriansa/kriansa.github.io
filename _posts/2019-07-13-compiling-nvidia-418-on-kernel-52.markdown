@@ -58,5 +58,5 @@ Well, I didn't find this on my own. Thanks [myn][myn-post] for sharing your
 findings.
 
 [kernel-commit]: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=fc1d8e7cca2daa18d2fe56b94874848adf89d7f5
-[nvidia-aur]: https://github.com/kriansa/PKGBUILDs/tree/master/pkgs/nvidia-418
+[nvidia-aur]: https://github.com/kriansa/PKGBUILDs/tree/6c8404033ee9130f9842648902d38b33b2f2fa3d/pkgs/nvidia-418
 [myn-post]: https://myn.meganecco.org/1560323400.html

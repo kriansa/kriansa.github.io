@@ -8,7 +8,11 @@ categories: articles
 
 When installing Debian 10 on FreeNAS (which uses bhyve as the hypervison) using UEFI, I faced some
 issues whereas once I removed the installation media, I couldn't boot anymore and I went straight to
-the EFI shell.
+the EFI shell with the following message:
+
+```
+Boot Failed. EFI Misc Device
+```
 
 After some digging, I found this [awesome article][article] where KrisBee explains the root cause of
 this issue.

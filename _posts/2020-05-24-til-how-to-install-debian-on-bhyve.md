@@ -28,6 +28,5 @@ Lastly, it's worth mentioning that after removing the CD-ROM media from the VM t
 order of the devices will change and you will lose network connectivity. You will need to get the
 interface name and set it to `/etc/network/interfaces`.
 
----
 [article]: https://www.ixsystems.com/community/threads/howto-how-to-boot-linux-vms-using-uefi.54039/page-9#post-516980
 [bhyve-support]: https://github.com/churchers/vm-bhyve/issues/336#issuecomment-573731049

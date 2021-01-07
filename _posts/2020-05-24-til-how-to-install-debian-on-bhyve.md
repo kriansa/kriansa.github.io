@@ -6,9 +6,9 @@ tags: linux, debian, nfs, til
 categories: articles
 ---
 
-When installing Debian 10 on FreeNAS (which uses bhyve as the hypervison) using UEFI, I faced some
-issues whereas once I removed the installation media, I couldn't boot anymore and I went straight to
-the EFI shell with the following message:
+When installing Debian 10 on FreeNAS (which uses bhyve as the hypervisor) using UEFI, I faced some
+issues once I removed the installation media, I couldn't boot anymore and I went straight to the EFI
+shell with the following message:
 
 ```
 Boot Failed. EFI Misc Device
@@ -20,7 +20,7 @@ this issue.
 The fact is that Debian's GRUB EFI installation relies on a EFI-standard that enforces a separation
 of boot entries by keeping them in separate folders/names on the _ESP_ (EFI system partition) - in
 this case `EFI/debian/grubx64.efi`. Unfortunately, bhyve doesn't seem to [support that
-yet][bhyve-support], and it expects the bootloader to be at `EFI/BOOT/bootx64.efi`.
+yet][bhyve-support], and it expects a single bootloader to be at `EFI/BOOT/bootx64.efi`.
 
 To work around that, we need to force Debian installation to use the removable media path, which
 basically means it will install the boot entry at `EFI/BOOT/bootx64.efi`. To enable that, we need to

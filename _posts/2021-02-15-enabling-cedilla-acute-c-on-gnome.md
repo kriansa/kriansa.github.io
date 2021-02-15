@@ -21,19 +21,19 @@ After some digging, here is the final solution, and it works for both GTK and no
 
 1. Create a `~/.XCompose` file with the following content:
 
-```
-# UTF-8 (Unicode) compose sequences
+    ```
+    # UTF-8 (Unicode) compose sequences
 
-# Overrides C acute with Ccedilla:
-<dead_acute> <C> : "Ç" "Ccedilla"
-<dead_acute> <c> : "ç" "ccedilla"
-```
+    # Overrides C acute with Ccedilla:
+    <dead_acute> <C> : "Ç" "Ccedilla"
+    <dead_acute> <c> : "ç" "ccedilla"
+    ```
 
 2. Run the following command:
 
-```sh
-$ gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/IMModule': <'ibus'>}"
-```
+    ```sh
+    $ gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/IMModule': <'ibus'>}"
+    ```
 
 3. Reboot or restart X11
 

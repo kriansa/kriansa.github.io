@@ -77,8 +77,8 @@ below.
         - reload systemd daemon
         - enable myprogram timer
       ansible.builtin.copy:
-        src: "{{ item }}"
-        dest: /etc/systemd/system/{{ item }}
+        src: "\{\{ item \}\}"
+        dest: /etc/systemd/system/\{\{ item \}\}
       loop:
         - myprogram.service
         - myprogram.timer

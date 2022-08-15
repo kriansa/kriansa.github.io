@@ -3,19 +3,24 @@ layout: default
 title: About
 permalink: /about/
 ---
-# Hello world
+# Hi, I'm Daniel 👋
 
-Hey, I'm Daniel Garajau. I currently live in Brazil and work as software engineer at [Intuit](https://intuit.com).
+**Pronouns:** he/his
 
-On this website I talk about programming ideas, projects & tricky problems I solved and _maybe_ are useful to others.
+I'm a brazilian software enthusiast who enjoys open-source, home-labbing, linux and related themes.
+On this website I share my findings about problems I solved I hope they can help others in their
+learning processes.
+
+If you feel that any of my projects have helped you and would like to support me, consider [buying
+me a coffee](https://www.buymeacoffee.com/kriansa).
 
 ## Contact
 
-I tweet from [`@kriansa`](https://twitter.com/kriansa){:target="blank"}, you can mail me
-[here](mailto:daniel@garajau.com.br){:target="blank"} and you can find my projects on
-[Github](https://github.com/kriansa){:target="blank"}. 
+* Twitter: [`@kriansa`](https://twitter.com/kriansa){:target="blank"}
+* Github: [`@kriansa`](https://github.com/kriansa){:target="blank"}
+* Matrix: [@kriansa:matrix.org](https://matrix.to/#/@kriansa:matrix.org){:target="blank"}
+* Email: [daniel@garajau.com.br](mailto:daniel@garajau.com.br){:target="blank"}
+* Linkedin: [/kriansa](https://www.linkedin.com/in/kriansa/){:target="blank"}
 
-My résumé is available [on LinkedIn](https://www.linkedin.com/in/kriansa/){:target="blank"}.
-
-My PGP key is available for download [here]({{ "/pgp.asc" | prepend: relative_url }}). Fingerprint:
+Public PGP [here]({{ "/pgp.asc" | prepend: relative_url }}). Fingerprint:
 **BC27 7BE0 9E8A 6F10 59C3  911B 3E78 8475 6312 F945**.

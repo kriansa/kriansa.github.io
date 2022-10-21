@@ -4,16 +4,10 @@ title: OpenBoleto – Biblioteca de boletos bancários em PHP
 date: 2013-03-19 20:44:34 BRT
 tags: boleto, open-source, openboleto, php, pt-br
 categories: projects
-permalink: /projects/openboleto-geracao-de-boletos-em-php/
-redirect_from:
-  - /blog/2013/03/openboleto-biblioteca-de-geracao-de-boletos-bancarios/
-  - /blog/2013/08/openboleto-geracao-de-boleto-bancario/
+permalink: /projects/openboleto-geracao-de-boletos-em-php
+github: openboleto/openboleto
 ---
-![boleto]({{ site.path }}/img/boleto.png)
-
 O <a title="OpenBoleto no GitHub" href="http://openboleto.github.io/openboleto/" target="_blank">OpenBoleto</a> é uma biblioteca de código aberto para geração de boletos bancários, um meio de pagamento muito comum no Brasil. O foco é ser simples e ter uma arquitetura compatível com os recursos mais modernos do PHP, mais amigável com frameworks MVC. Criada em Janeiro de 2013, hoje finalmente lançamos a primeira versão estável.
-
-<a href="https://github.com/openboleto/openboleto"><img style="border-radius: none; box-shadow: none; position: fixed; top: 0; left: 0; border: 0;" alt="Fork me on GitHub" src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" /></a>
 
 <h2>Como usar?</h2>
 O OpenBoleto é simples e flexível, serve tanto para quem não tem tanta experiência em programação quanto para quem <del>manja dos paranauê</del> gosta de customizar tudo. Veja um exemplo abaixo de como gerar um boleto para o Banco do Brasil:

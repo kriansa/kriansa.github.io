@@ -6,6 +6,18 @@ layout: default
   <div class="post-info">
     <span>Written on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
   </div>
+
+  {% if page.github %}
+  <div class="project-info">
+  	<a href="https://github.com/{{ page.github }}" class="link" target="_blank">
+  		<img alt="Latest release" src="https://img.shields.io/github/v/tag/{{ page.github }}?include_prereleases&label=release&style=for-the-badge">
+  	</a>
+  	<a href="https://github.com/{{ page.github }}" class="link" target="_blank">
+  		<img alt="GitHub Stars" src="https://img.shields.io/github/stars/{{ page.github }}?style=for-the-badge&logo=github">
+  	</a>
+  </div>
+  {% endif %}
+
   <div class="post-line"></div>
 
   {{ content }}

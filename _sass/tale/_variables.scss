@@ -11,10 +11,10 @@ $shadow-color: rgba(0, 0, 0, .2);
 $code-color: #bf616a;
 
 // Fonts
-$serif-primary: Georgia, 'Times New Roman', Times, serif;
-$serif-secondary: Georgia, Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
-$sans-serif: Georgia, 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
-$monospaced: 'Nanum Gothic Coding', Menlo, Monaco, monospace;
+$serif-primary: serif;
+$serif-secondary: system-ui;
+$sans-serif: sans-serif;
+$monospaced: monospace;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;

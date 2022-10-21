@@ -1,0 +1,27 @@
+.project {
+  &-excerpt {
+    display: flex;
+
+    .link {
+    	margin: 5px;
+    }
+
+    .link:first-child {
+    	margin-left: 0px;
+    }
+  }
+
+  &-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+
+    .link {
+    	margin: 5px;
+    }
+
+    img {
+      margin: 0;
+    }
+  }
+}

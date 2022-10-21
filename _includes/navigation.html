@@ -4,8 +4,9 @@
       <h2 class="nav-title">{{ site.title }}</h2>
     </a>
     <ul>
-      <li><a href="{{ '/about' | prepend: site.baseurl }}">About me</a></li>
-      <li><a href="{{ site.baseurl }}/">Posts</a></li>
+      <li><a href="{% link index.html %}">Posts</a></li>
+      <li><a href="{% link projects.md %}">Projects</a></li>
+      <li><a href="{% link about.md %}">About me</a></li>
     </ul>
   </div>
 </nav>

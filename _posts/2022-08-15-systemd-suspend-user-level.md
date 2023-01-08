@@ -19,7 +19,7 @@ before and after the computer slept.
 There's however, a clean way to proxy out these hooks from the **system** to the **user** instance.
 To do that, you will need to create a system unit that will trigger a user target:
 
-#### /etc/system/system/suspend@.service
+#### /etc/systemd/system/suspend@.service
 
 ```conf
 [Unit]

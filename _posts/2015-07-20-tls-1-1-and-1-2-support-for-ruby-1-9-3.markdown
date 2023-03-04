@@ -4,7 +4,6 @@ title: "TLS 1.1 and 1.2 support for Ruby 1.9.3"
 date: 2015-07-20 10:36:00 BRT
 tags: ruby, tls
 categories: articles
-redirect_from: /blog/2015/07/tls-1-1-and-1-2-support-for-ruby-1-9-3/
 ---
 As of the begining of this year, precisely at February 23th, Ruby 1.9.3 is no longer supported: Not even for security or bug fixes. The recommendation is to upgrade to Ruby 2.0.0 or above - even though 2.0.0 has a limited support until Feb 24th 2016.
 

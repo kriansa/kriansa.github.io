@@ -4,7 +4,6 @@ title: Running Ruby in production environments
 date: 2014-03-23 21:02:00 BRT
 tags: ruby, benchmark, passenger, puma, unicorn
 categories: articles
-redirect_from: /blog/2014/03/running-ruby-in-production-environments/
 ---
 To run Ruby in production environments, I'll benchmark 3 of the widely used web-servers:
 

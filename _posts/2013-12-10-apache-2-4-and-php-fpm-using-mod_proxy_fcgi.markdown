@@ -4,7 +4,6 @@ title: Apache 2.4 and PHP-FPM using mod_proxy_fcgi
 date: 2013-12-10 17:01:00 BRT
 tags: apache, php
 categories: articles
-redirect_from: /blog/2013/12/apache-2-4-and-php-fpm-using-mod_proxy_fcgi/
 ---
 Recently I needed to install the PHP environment on my production server. I wanted to try the new Apache 2.4 features, so I'm gonna bring you my experience deploying this server.
 

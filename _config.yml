@@ -31,7 +31,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
-  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-feed
 

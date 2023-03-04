@@ -4,7 +4,6 @@ title: "From PHP to Ruby: What is a Rack-based app?"
 date: 2014-03-12 19:42:00 BRT
 tags: php, ruby, rack, web, from-php-to-ruby
 categories: articles
-redirect_from: /blog/2014/03/from-php-to-ruby-what-is-rack-based-app/
 ---
 I want to start this blog series called "_From PHP to Ruby_", which are intended to be small articles on how different is one from another and such. I hope somebody can learn something ;)
 

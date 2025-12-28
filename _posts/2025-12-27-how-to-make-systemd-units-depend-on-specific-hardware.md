@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to make systemd units depend on specific hardware
-date: 2024-12-27 12:00:00 BRT
+date: 2025-12-27 12:00:00 BRT
 tags: linux, systemd, udev
 categories: articles
 ---
